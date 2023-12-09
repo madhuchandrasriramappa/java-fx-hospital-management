@@ -104,7 +104,7 @@ public class doctorDashboard {
 	   	 
 	   	showAlert("Success", "Patient record deleted successfully");
     }
-    
+    // updataPatient
     @FXML
     public void updatePatient() {
     	String d1 = updateDiseaseID.getText();

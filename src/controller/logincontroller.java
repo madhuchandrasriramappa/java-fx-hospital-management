@@ -65,7 +65,7 @@ public class logincontroller {
             e.printStackTrace();
         }
     }
-    
+    // openDoctorDashboardpage
     @FXML
     private void openDoctorDashboardPage() {
         try {
