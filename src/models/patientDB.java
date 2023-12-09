@@ -10,7 +10,7 @@ public class patientDB {
     public patientDB() {
     	
     }
-    
+    // patient database
     public patientDB(String firstName, String LastName, String disease, String email, String id) {
     	this.firstName = firstName;
     	this.lastName = LastName;

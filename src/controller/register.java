@@ -72,7 +72,7 @@ public class register {
             alert.setContentText("User registered successfully!");
             alert.showAndWait();
 
-            // Load the login page after successful registration
+            // sucessful registartion
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/Login.fxml"));
                 Parent root = loader.load();

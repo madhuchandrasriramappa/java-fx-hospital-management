@@ -35,7 +35,7 @@ public class Otherclass {
             if (connection != null) {
                 DatabaseMetaData metaData = connection.getMetaData();
 
-                // Retrieving specific tables by name
+                // Retrieving specific tables by name in the database
                 String[] tableNames = {"mc_login", "mc_patient", "mc_register", "mc_staff"};
                 System.out.println("Tables:");
                 for (String tableName : tableNames) {

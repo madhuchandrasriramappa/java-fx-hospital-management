@@ -84,7 +84,7 @@ public class patientcontrollerjava {
         
         // You can perform actions with loggedInUser here or in initialize()
     }
-
+// add patinet
     @FXML
     private void addpatient() {
         String new_disease = newDisease.getText();

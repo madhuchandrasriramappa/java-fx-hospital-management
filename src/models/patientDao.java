@@ -115,7 +115,7 @@ public class patientDao {
             e.printStackTrace();
         }
     } 
-    
+    // deleting the patientbyemail
     public void deletePatientByEmail(String id) {
         String query = "DELETE FROM mc_patient WHERE `Patient ID` = ?";
 

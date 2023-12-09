@@ -13,7 +13,7 @@ public class DbConnect {
 
     public static Connection getConnection() throws SQLException {
         if (connection == null || connection.isClosed()) {
-            // JDBC URL, username, and password
+            //  URL, username, and password
             String jdbcUrl = "jdbc:mysql://www.papademas.net:3307/510labs?autoReconnect=true&useSSL=false";
             String username = "db510";
             String password = "510";

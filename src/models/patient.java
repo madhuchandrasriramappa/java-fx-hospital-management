@@ -29,7 +29,7 @@ public class patient {
     	this.id.set(i);
     }
 
-    // Getter methods for firstName and lastName properties
+    // Getter methods for all the properties
     public String getFirstName() {
         return firstName.get();
     }

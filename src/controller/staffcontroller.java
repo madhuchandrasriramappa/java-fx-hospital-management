@@ -43,7 +43,7 @@ public class staffcontroller {
         // Populate TableView with sample staff data
         staffTableView.setItems(staffList);
     }
-
+// adding the staffdetails
     @FXML
     private void addstaff() {
         String staffName = staffNameField.getText();
