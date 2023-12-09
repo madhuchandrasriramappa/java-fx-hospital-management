@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" 
+xmlns="http://javafx.com/javafx/16" 
+xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="controller.patientcontrollerjava">
+	<children>
+		<Label layoutX="40.0" layoutY="50.0" text="Patient Management" />
+		<TableView fx:id="patientTableView">
+			<columns>
+				<TableColumn text="Patient ID" fx:id="patientId" prefWidth="100"/>
+				
+			
+				
+				<TableColumn text="First Name" fx:id="firstName" prefWidth="100"/>
+					
+				
+				
+				<TableColumn text="Last Name" fx:id="lastName" prefWidth="100"/>
+					
+			
+				
+				<TableColumn text="Disease" fx:id="disease" prefWidth="100"/>
+
+			</columns>
+		</TableView>
+		
+		<Label layoutX="400.0" layoutY="50.0" text="Create disease" />
+		<TextField fx:id="newDisease" layoutX="400.0" layoutY="100.0" prefHeight="25.0" prefWidth="150.0" />
+		<Button text="Create" onAction="#addpatient"  AnchorPane.topAnchor="150.0" layoutX="400.0"/>
+	</children>
+</AnchorPane>
+
+

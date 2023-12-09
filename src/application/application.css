@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* General styles */
+/* General styling for Labels */
+Label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Styling for TextFields */
+TextField, PasswordField {
+    -fx-prompt-text-fill: #A9A9A9; /* Placeholder text color */
+    -fx-font-size: 14px;
+    -fx-min-height: 30px;
+}
+
+/* Styling for Buttons */
+Button {
+    -fx-font-size: 14px;
+    -fx-min-width: 80px;
+    -fx-min-height: 30px;
+}
+
+/* Styling for TableView */
+TableView {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 10px;
+}
+
+/* Styling for TableView columns */
+TableColumn {
+    -fx-alignment: CENTER;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+/* Styling for TableView cells */
+.table-cell {
+    -fx-padding: 5px;
+    -fx-border-width: 1px;
+    -fx-border-color: #d3d3d3;
+}
+

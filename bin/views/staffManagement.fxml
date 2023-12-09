@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<VBox xmlns="http://javafx.com/javafx" 
+xmlns:fx="http://javafx.com/fxml" 
+fx:controller="controller.staffController">
+
+    <TableView fx:id="staffTableView">
+        <columns>
+            <TableColumn text="Staff ID">
+                <cellValueFactory>
+                    <PropertyValueFactory property="staffId"/>
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="First Name">
+                <cellValueFactory>
+                    <PropertyValueFactory property="firstName"/>
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Last Name">
+                <cellValueFactory>
+                    <PropertyValueFactory property="lastName"/>
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Department">
+                <cellValueFactory>
+                    <PropertyValueFactory property="department"/>
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+
+    <!-- Additional UI elements like buttons, labels, etc., can be added here -->
+
+</VBox>

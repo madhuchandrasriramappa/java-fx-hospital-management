@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" 
+xmlns="http://javafx.com/javafx/16" 
+xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="controller.logincontroller">
+      <children>
+	      <Label layoutX="40.0" layoutY="50.0" text="Email" />
+	      <TextField fx:id="emailIdField" layoutX="100.0" layoutY="50.0" prefHeight="25.0" prefWidth="150.0" />
+	      <Label layoutX="40.0" layoutY="100.0" text="Password" />
+	      <PasswordField fx:id="passwordField" layoutX="100.0" layoutY="100.0" prefHeight="25.0" prefWidth="150.0" />
+	      
+        	<!-- Your login screen components -->
+   			<Button text="Login" onAction="#login"  AnchorPane.topAnchor="150.0" layoutX="100.0"/>
+   			
+   			<!-- Your login screen components -->
+   			<Button text="Register" onAction="#showUserRegisterationScreen"  AnchorPane.topAnchor="150.0" layoutX="200.0"/>
+      </children>
+  
+</AnchorPane>
